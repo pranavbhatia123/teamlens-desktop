@@ -1,0 +1,27 @@
+{
+  "productName": "TeamLens Agent",
+  "version": "1.0.0",
+  "identifier": "co.teamlens.agent",
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devUrl": "http://localhost:1420",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [],
+    "trayIcon": {
+      "id": "teamlens-tray",
+      "iconPath": "icons/icon.png",
+      "iconAsTemplate": true,
+      "menuOnLeftClick": true,
+      "tooltip": "TeamLens Agent"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": ["icons/icon.png"]
+  }
+}

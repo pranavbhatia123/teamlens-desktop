@@ -1,0 +1,8 @@
+{
+  "name": "teamlens-tray",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo built",
+    "dev": "echo dev"
+  }
+}
